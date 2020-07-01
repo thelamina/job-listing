@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
 :root {
   --DesaturatedDarkCyan: hsl(180, 29%, 50%);
   --Light-Grayish-Cyan: hsl(180, 52%, 96%);
@@ -12,7 +14,7 @@
 }
 
 html body {
-  font-family: lato;
+  font-family: 'Spartan', sans-serif;
   background-color: var(--Light-Grayish-Cyan);
   font-size: 14px;
 }
