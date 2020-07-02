@@ -43,10 +43,11 @@ a {
   align-items: center;
   border-radius: 8px;
   justify-content: space-between;
+  transition: border 0.3s ease-out;
 }
 
 .card-item:hover,
-.card-item:active{
+.card-item:active {
   border-left: 6px solid var(--Dark-Grayish-Cyan);
 }
 
@@ -136,6 +137,37 @@ header {
 .desciption p:not(:first-child)::before {
   content: '.';
   text-align: center;
+}
+
+.search-bar {
+  display: none;
+  background: #fff;
+  margin-top: -120px;
+  margin-bottom: 60px;
+  padding: 18px 36px;
+  box-shadow: 0px 2px 34px 0px hsla(180, 8%, 52%, 0.466);
+  border-radius: 7px;
+}
+
+.search-bar > .tag span {
+  padding: 0px 0px;
+  margin: 0;
+}
+
+.search-bar > .tag div {
+  border-radius: 7px;
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.search-bar > .tag div a {
+  margin: 0;
+  background: var(--Very-Dark-Grayish-Cyan);
+}
+.search-bar > .tag div a img {
+  width: 100%;
+  height: auto;
 }
 
 .attribution {
